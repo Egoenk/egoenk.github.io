@@ -1,0 +1,402 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:5px 0;
+	background-color: #d85b0e;
+}
+.service .container .sd{
+    margin-left: 50px;
+}
+.service .container .smp{
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+.service .container .sma{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.service .container .univ{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.jadwal-content{
+	padding-left: 250px;
+}
+
+.jadwal .title {
+	margin: 20px 0;
+}
+
+.jadwal {
+	padding: 1px;
+}
+
+.jadwal-content {
+	border-collapse: collapse;
+	margin: 200px 250px;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 500px;
+	box-shadow: 0 0 20px rgba(64, 112, 244, 255);
+}
+
+.jadwal-content thead tr {
+	background-color: #e46611;
+	color: #ffffff;
+	text-align: left;
+}
+
+.jadwal-content th,
+.jadwal-content td {
+	padding: 12px 15px;
+	border-style: double;
+}
+
+.jadwal-content tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.jadwal-content tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.jadwal-content tbody tr:last-of-type {
+	border-bottom: 2px solid #e46611;
+}
+
+tbody tr {
+	border-bottom: 1px solid #4070f4;
+}
+
+.jadwal-content tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.jadwal-content tbody tr:last-of-type {
+	border-bottom: 2px solid #4070f4;
+}
+
+.jadwal-content tbody tr.active-row {
+	font-weight: bold;
+	color: #e46611;
+}
+
+.jadwal-content tbody tr.ar {
+	font-weight: bold;
+	color: #e46611;
+	background-color: #f3f3f3;
+}
+.about .container table{
+    margin-left: 350px;
+}
+.aktivitas{
+	background: #F0F8FF;
+  }
+  .aktivitas .title{
+	margin-top: 0;
+	padding-bottom: 100px;
+	margin-left: 800px;
+  }
+  .aktivitas .content{
+	padding: 40px 20px;
+  }
+  .aktivitas .aktivitas-details{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .aktivitas-details .text{
+	width: 50%;
+  }
+  .aktivitas-details p{
+	color: #0E2431;
+	text-align: justify;
+  }
+ .aktivitas .aktivitas-details .experience{
+   display: flex;
+   align-items: center;
+   margin: 0 10px;
+ }
+ .aktivitas-details .experience .num{
+   color: #0E2431;
+   font-size: 80px;
+ }
+ .aktivitas-details .experience .exp{
+   color: #0E2431;
+   margin-left: 20px;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0 6px;
+ }
+ .aktivitas-details .boxes{
+   width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .aktivitas-details .box{
+   width: calc(100% / 2 - 20px);
+   margin: 20px 0;
+ }
+ .aktivitas-details .boxes .topic{
+   font-size: 20px;
+   color: #4070f4;
+   text-align: center;
+ }
+ .aktivitas-details .boxes .per{
+   font-size: 60px;
+   color: #4070f4;
+ }
+ section .activitas {
+	 color: #0E2431;
+	 font-size: 25px;
+	 font-weight: bolder;
+	 margin-bottom: 18px;
+	 text-align: center;
+ }
+ .aktivitas-details .pengalaman{
+	 color: #0E2431;
+	 text-align: left;
+	 font-size: 21px;
+	 font-weight: bold;
+ }
+ .tempat{
+   text-align: left;
+   font-size: 17px;
+   font-weight: bold;
+ }
+ .waktu{
+   text-align: left;
+   font-size: 13px;
+   font-weight: lighter;
+ }
+.aktivitas .title{
+    margin-left: 870px;
+    color: #e46611;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding:15px 0;
+	color: #e46611;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #e46611;
+	color: #fff;
+}
+.active {
+	background-color: #e46611;
+	color: #fff;
+}
+.banner {
+	height: 30vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(214, 83, 12, 0.805);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 30px 250px;
+	border:3px solid #fff;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #e46611;
+	margin-bottom: 25px;
+}
+.about,
+.service {
+	padding-bottom: 100px;
+}
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.service {
+	background-color: #f9f9f9;
+}
+.box {
+	color: #e46611;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width:70px;
+	height:70px;
+	border:1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin:0 auto;
+}
+.box .col-4 h4 {
+	margin:20px 0;
+}
+footer {
+	padding:30px 0;
+	background-color: #e46611;
+	color: #fff;
+	text-align: center;
+}
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader {
+	width:100px;
+	height: 100px;
+	border:3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #148F77;
+	border-right-color: #148F77;
+	border-bottom-color: #148F77;
+	animation: puterin .8s linear infinite;
+}
+.label {
+	background-color: #e46611;
+	color: #fff;
+}
+@keyframes puterin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media screen and (max-width: 768px){
+	.container {
+		width:90%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+	}
+	.box .col-4 {
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+}
+
+.pendidikan{
+    justify-content: left ;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.perkenalan {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.perkenalan p{
+	text-align: justify;
+}
+.foto img{
+    width :650px ;
+    
+}.pendidikan{
+    justify-content: left ;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.pendidikan .logo {
+    max-width: 100px;
+	max-height: 100px ;
+    flex: 0 0 150px;
+	margin-right: 120px;
+}
+
+.pendidikan .logo img {
+    height : 100px;
+	width : 200px;
+	flex : 0 0 150px;
+	margin-bottom: 300px;
+}
+
+.pendidikan .logo p {
+   margin-right: 100px;
+
+}
+.pendidikan .description {
+    padding-left: 20px;
+}
